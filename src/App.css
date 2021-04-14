@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.App{
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+
+}
