@@ -37,10 +37,10 @@ export function Button(props) {
         >
             <Box
                 scale={hover ? [1.5, 1.5, 1.5] : [1, 1, 1]}
-                args={[2.4, 5.1, 4.1]}
+                args={[1, 1.5, 2]}
                 {...props}
             >
-                <meshStandardMaterial attach="material" color='#eb4034' />
+                <meshStandardMaterial attach="material" color={color} />
                 {/* <Text position={[0, 0, 0.06]} fontSize={0.05} color="#000" anchorX="center" anchorY="middle">
         Hello react-xr!
         </Text> */}
